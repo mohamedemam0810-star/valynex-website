@@ -11,3 +11,6 @@ Active website scenes use licensed photographic stock, optimized to WebP without
 License: https://www.pexels.com/license/ (website use permitted; no endorsement implied). Visitor-facing credits: /photo-credits.
 
 Legacy laboratory-team.webp, laboratory-equipment.webp, and laboratory-supplies.webp were generated illustrative assets used in an earlier version. They are retained for history and are no longer referenced in the website.
+
+## Typography
+IBM Plex Sans Arabic (400, 500, 600, 700), self-hosted using next/font/local. Source: https://github.com/google/fonts/tree/main/ofl/ibmplexsansarabic. License: SIL Open Font License 1.1, included in public/fonts/OFL.txt.
