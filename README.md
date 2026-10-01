@@ -1,6 +1,6 @@
 # VALYNEX
 
-Arabic-first B2B medical and laboratory website for Egypt. Next.js App Router, TypeScript, Tailwind CSS, and Lucide icons. Original CSS/SVG medical-tech abstract artwork; no image generators or Higgsfield. Animations use lightweight CSS and respect reduced motion.
+Arabic-first B2B medical and laboratory website for Egypt. Next.js App Router, TypeScript, Tailwind CSS, and Lucide icons. Uses the owner-supplied original logo and ImageGen-created illustrative laboratory photography, optimized as WebP. No Higgsfield. Images do not represent verified company facilities, staff, inventory, or product models. See ASSETS.md for provenance and generation prompts. Transitions respect reduced motion.
 
 ## Run
 
