@@ -1,6 +1,6 @@
 # VALYNEX
 
-Arabic-first B2B medical and laboratory website for Egypt. Next.js App Router, TypeScript, Tailwind CSS, and Lucide icons. Uses the owner-supplied original logo and ImageGen-created illustrative laboratory photography, optimized as WebP. No Higgsfield. Images do not represent verified company facilities, staff, inventory, or product models. See ASSETS.md for provenance and generation prompts. Transitions respect reduced motion.
+Arabic-first B2B medical and laboratory website for Egypt. Next.js App Router, TypeScript, Tailwind CSS, and Lucide icons. Uses the owner-supplied original logo and licensed photographic stock from Pexels, optimized as WebP. No Higgsfield. Images do not represent verified company facilities, staff, inventory, or product models. See ASSETS.md and /photo-credits for photographer credits and license sources. Legacy generated files remain archived but are not referenced by the site. Transitions respect reduced motion.
 
 ## Run
 
@@ -12,7 +12,7 @@ Import this repository in Vercel, select Next.js, and use the repository root. T
 
 ## Content and quote flow
 
-Routes: `/`, `/about`, `/products`, `/contact`. Category content lives in `lib/site.ts`; these are solution categories, not verified inventory. No invented certifications, customer logos, quantified outcomes, pricing, address, or email. Confirm actual offering scope with the business owner before launch.
+Routes: `/`, `/about`, `/products`, `/contact`, `/photo-credits`. Category content lives in `lib/site.ts`; these are solution categories, not verified inventory. No invented certifications, customer logos, quantified outcomes, pricing, address, or email. Confirm actual offering scope with the business owner before launch.
 
 WhatsApp: +20 103 777 9413. Category quote links prefill context. The contact form validates required fields and builds a message locally, then shows a link to WhatsApp. The visitor reviews and sends the message themselves. No backend, storage, analytics, or outgoing messages from the website. Do not collect patient information.
 
