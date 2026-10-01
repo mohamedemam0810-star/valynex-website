@@ -7,7 +7,7 @@ export default function LabBackground(){
   const [paused,setPaused]=useState(false);
   return <div className={`lab-background${paused?' is-paused':''}`}>
     <div className="lab-background-scenes" aria-hidden="true">
-      {['laboratory-team','laboratory-equipment','laboratory-supplies'].map((scene,index)=><div className={`lab-background-scene scene-${index+1}`} key={scene}><Image src={`/images/${scene}.webp`} alt="" fill sizes="100vw" priority={index===0}/></div>)}
+      {['lab-people-real','lab-equipment-real','rapid-test-real'].map((scene,index)=><div className={`lab-background-scene scene-${index+1}`} key={scene}><Image src={`/images/${scene}.webp`} alt="" fill sizes="100vw" priority={index===0}/></div>)}
       <div className="lab-background-shade"/>
       <div className="lab-background-glow"/>
     </div>
