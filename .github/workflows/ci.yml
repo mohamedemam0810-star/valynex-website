@@ -11,4 +11,5 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run typecheck
+      - run: node --test tests/cart.cjs
       - run: npm run build
