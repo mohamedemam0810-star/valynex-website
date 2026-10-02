@@ -25,3 +25,11 @@ SEO: unique Arabic page titles/descriptions, canonical URLs, Organization JSON-L
 - Verify the receiving WhatsApp number on an actual mobile device.
 - Review all pages at phone and desktop widths.
 - Connect GitHub to Vercel so changes deploy from GitHub.
+
+## Separate shop
+
+/shop provides product search, category filters, a product details dialog, a cart with stock-limited quantities and totals, and a customer-reviewed WhatsApp order. No online payment or stock reservation occurs. Shipping and extra charges are confirmed in WhatsApp.
+
+Only owner-confirmed products may be added to lib/shop.ts. The catalog is intentionally empty until actual product data is supplied. Each product requires id, name, category, description, details, priceEgp (per selling unit, including any applicable product taxes), stock, and unit. Optional sku, image and imageAlt. Save actual product images in public/images/products; image paths must begin with /images/products/. Never use the illustrative laboratory stock images as exact product photos. Zero-stock products cannot be ordered; malformed prices/stock are excluded. Local storage persists only product IDs and quantities, not personal data.
+
+Run meaningful cart verification with node --test tests/cart.cjs. The fixtures are test-only and are never imported by the website.
